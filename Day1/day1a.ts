@@ -1,7 +1,6 @@
 import { readFileSync, createReadStream } from 'fs';
 import * as rd from 'readline';
 
-//const msg = readFileSync(require.resolve('./day1.txt'), 'utf-8');
 var reader = rd.createInterface(createReadStream(require.resolve('./day1.txt')));
 let currElf: number = 0;
 let maxElf: number = 0;
